@@ -73,7 +73,7 @@ Throughout the system development life cycle, standard Git workflow commands wer
 ## 5. GitHub Repository Link
 The entire source code, issue resolution timeline, and detailed commit history can be physically verified on the official cloud hub repository:
 
-🔗 **GitHub Repository:** [https://github.com/muksinbushiri141/OpenSource_Assignment_BSC_CS_GROUP_01](https://github.com/muksinbushiri141/OpenSource_Assignment_BSC_CS_GROUP_01)
+🔗 **GitHub Repository:** [https://github.com/expertmib/OpenSource_Assignment_BSC_CS_GROUP_01.git](https://github.com/expertmib/OpenSource_Assignment_BSC_CS_GROUP_01.git)
 
 ***
 *Developed as a Computer Science Group Assignment for Open Source Technologies Module.*
