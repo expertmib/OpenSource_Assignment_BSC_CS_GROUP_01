@@ -1,4 +1,11 @@
-# Student Information Management System (SIMS) - Case Study: Tanzania
+# Student Information Management System (SIMS)
+
+## Academic Metadata
+* **Degree Program:** Bachelor of Science in Computer Science
+* **Group Number:** Group 01
+* **Course Code & Title:** CP 222 - Open Source Technologies
+
+---
 
 ## 1. Project Overview
 The **Student Information Management System (SIMS)** is a lightweight, responsive, and secure full-stack web application designed to digitize student records management in both Primary and Secondary schools within the Tanzanian educational context. 
