@@ -1,15 +1,16 @@
 <?php
 // includes/header.php
-if (session_status() == PHP_SESSION_NONE) {
-    session_start();
+// Unganisha faili la ulinzi kulingana na wapi ukurasa ulipo
+if (file_exists('includes/auth.php')) {
+    require_once 'includes/auth.php';
+} else {
+    require_once '../../includes/auth.php';
 }
 
-// Kuzuia watu wasioingia kwenye mfumo kwa kulazimisha (Security Check)
-if (!isset($_SESSION['user_id'])) {
-    header("Location: login.php");
-    exit();
-}
+// Lensesha ulinzi: Kama mtu hajalog-in, itamfukuza hapa hapa!
+check_authenticated();
 ?>
+
 <!DOCTYPE html>
 <html lang="sw">
 <head>

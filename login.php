@@ -1,3 +1,8 @@
+<?php
+// Weka ulinzi na anzisha session juu kabisa ya ukurasa kabla ya HTML yoyote
+require_once 'includes/auth.php';
+redirect_if_authenticated(); // Kama ashalog-in, mpeleke index.php moja kwa moja
+?>
 <!DOCTYPE html>
 <html lang="sw">
 <head>
@@ -20,6 +25,20 @@
         </div>
 
         <h2>Login</h2>
+
+        <?php if (isset($_GET['error'])): ?>
+            <div style="padding: 12px; background: #f8d7da; color: #721c24; border-radius: 15px; margin-bottom: 20px; text-align: center; font-size: 0.9rem; font-weight: bold; box-shadow: var(--shadow-out);">
+                <?php 
+                    if ($_GET['error'] == 'invalid_credentials') {
+                        echo "Email au Password sio sahihi! ❌";
+                    } elseif ($_GET['error'] == 'empty_fields') {
+                        echo "Tafadhali jaza nafasi zote! ⚠️";
+                    } else {
+                        echo "Kuna tatizo limejitokeza. Jaribu tena.";
+                    }
+                ?>
+            </div>
+        <?php endif; ?>
 
         <form action="modules/users/auth_process.php" method="POST">
             <div class="input-group">
