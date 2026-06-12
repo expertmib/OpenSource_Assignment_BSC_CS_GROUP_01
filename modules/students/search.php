@@ -33,8 +33,8 @@ if (isset($_GET['reg_number'])) {
 
 <div class="main-content">
     <div class="welcome-box">
-        <h1 style="font-size: 1.8rem; font-weight: 700; margin-bottom: 5px;">Tafuta Mwanafunzi 🔍</h1>
-        <p style="color: #8a92a6; font-size: 0.95rem;">Moduli ya kutafuta rekodi za mwanafunzi kwa kutumia Namba ya Usajili (Registration Number).</p>
+        <h1 style="font-size: 1.8rem; font-weight: 700; margin-bottom: 5px;">Search Studen 🔍</h1>
+        <p style="color: #8a92a6; font-size: 0.95rem;">Search module for student records using the Registration Number.</p>
     </div>
 
     <div style="padding: 25px; border-radius: 20px; box-shadow: var(--shadow-out); background: var(--card-bg); max-width: 600px; margin: 0 auto 30px;">

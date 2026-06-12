@@ -15,8 +15,8 @@ try {
 
 <div class="main-content">
     <div class="welcome-box">
-        <h1 style="font-size: 1.8rem; font-weight: 700; margin-bottom: 5px;">Orodha ya Wanafunzi 📋</h1>
-        <p style="color: #8a92a6; font-size: 0.95rem;">Hapa unaweza kuona rekodi zote za wanafunzi waliosajiliwa kwenye mfumo.</p>
+        <h1 style="font-size: 1.8rem; font-weight: 700; margin-bottom: 5px;">Students List 📋</h1>
+        <p style="color: #8a92a6; font-size: 0.95rem;">Here you can view all registered student records in the system.</p>
     </div>
 
     <div style="padding: 30px; border-radius: 25px; box-shadow: var(--shadow-out); background: var(--card-bg); overflow-x: auto;">
@@ -67,9 +67,9 @@ try {
         <?php else: ?>
             <div style="text-align: center; padding: 40px 20px;">
                 <i class="fa-regular fa-folder-open" style="font-size: 3rem; color: #8a92a6; margin-bottom: 15px; display: block;"></i>
-                <p style="color: #8a92a6; font-weight: 600;">Hakuna rekodi za wanafunzi zilizopatikana kwenye mfumo kwa sasa.</p>
+                <p style="color: #8a92a6; font-weight: 600;">No student records available. Please register a student to get started.</p>
                 <a href="register.php" style="display: inline-block; margin-top: 15px; color: #1171ff; text-decoration: none; font-weight: bold;">
-                    <i class="fa-solid fa-plus"></i> Bonyeza hapa kusajili wa kwanza
+                    <i class="fa-solid fa-plus"></i> Click here to register the first student
                 </a>
             </div>
         <?php endif; ?>

@@ -51,8 +51,8 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 
 <div class="main-content">
     <div class="welcome-box">
-        <h1 style="font-size: 1.8rem; font-weight: 700; margin-bottom: 5px;">Sajili Mwanafunzi Mipya 📝</h1>
-        <p style="color: #8a92a6; font-size: 0.95rem;">Moduli ya kusajili wanafunzi wa Shule za Msingi na Sekondari (Case: Tanzania).</p>
+        <h1 style="font-size: 1.8rem; font-weight: 700; margin-bottom: 5px;">Register New Student 📝</h1>
+        <p style="color: #8a92a6; font-size: 0.95rem;">Primary and Secondary School Student Registration Module (Case: Tanzania).</p>
     </div>
 
     <?php if (!empty($message)): ?>

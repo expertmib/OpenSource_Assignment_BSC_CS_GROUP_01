@@ -21,8 +21,8 @@ try {
 
 <div class="main-content">
     <div class="welcome-box">
-        <h1 style="font-size: 1.8rem; font-weight: 700; margin-bottom: 5px;">Habari, <?php echo htmlspecialchars($_SESSION['user_name']); ?>! 👋</h1>
-        <p style="color: #8a92a6; font-size: 0.95rem;">Karibu kwenye Mfumo wa Kusimamia Taarifa za Wanafunzi (SIMS) - Tanzania.</p>
+        <h1 style="font-size: 1.8rem; font-weight: 700; margin-bottom: 5px;">Hellow, <?php echo htmlspecialchars($_SESSION['user_name']); ?>! 👋</h1>
+        <p style="color: #8a92a6; font-size: 0.95rem;">Welcom, to School information System (SIMS) - Tanzania.</p>
     </div>
 
     <div class="card-grid">
@@ -46,7 +46,7 @@ try {
     <div style="padding: 25px; border-radius: 20px; box-shadow: var(--shadow-out); background: var(--card-bg);">
         <h2 style="font-size: 1.3rem; margin-bottom: 15px;"><i class="fa-solid fa-circle-info" style="color: #ff9f1c;"></i> Assignment Information</h2>
         <p style="font-size: 0.95rem; line-height: 1.6; color: var(--text-color);">
-            Mfumo huu umetengenezwa mahususi kukidhi vigezo vyote vya **CP 222: Open Source Technologies**. Una uwezo wa kusajili wanafunzi wa shule za msingi na sekondari nchini Tanzania, kuandikisha taarifa zao, na kufanya utafutaji wa haraka kwa kutumia namba ya usajili (Registration Number).
+           This system is specifically designed to meet all the criteria for CP 222: Open Source Technologies. It is capable of registering primary and secondary school students in Tanzania, enrolling their information, and performing quick searches using their registration numbers.
         </p>
     </div>
 </div>
