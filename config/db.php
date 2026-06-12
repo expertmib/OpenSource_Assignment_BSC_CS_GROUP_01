@@ -10,8 +10,8 @@ try {
     // Kutumia PDO (Njia salama na ya kisasa zaidi kwa Computer Science)
     $conn = new PDO("mysql:host=$host;dbname=$db_name;charset=utf8", $username, $password);
     
-    // Set error mode kuwa Exceptions
-    $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ATTR_ERRMODE_EXCEPTION);
+    // USAHIHISHO: Hapa sasa hivi tumeweka "PDO::ERRMODE_EXCEPTION" kwa usahihi
+    $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
     $conn->setAttribute(PDO::ATTR_DEFAULT_FETCH_MODE, PDO::FETCH_ASSOC);
     
 } catch(PDOException $e) {
