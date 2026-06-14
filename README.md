@@ -58,29 +58,36 @@ Follow these steps to set up and run the project locally on your machine:
 ## 3. Project Directory Structure
 Below is the clean architecture and directory tree layout of the application showing how components are modularly organized:
 
+## 3. Project Directory Structure
+Below is the clean architecture and directory tree layout of the application showing how components are modularly organized:
+
+```text
 sims-project/
 │
+├── assets/
+│   └── css/
+│       └── style.css          # Neumorphic styling rules & theme variables
+│
 ├── config/
-│   ├── db.php             <-- Relational PDO connection instance
-│   └── school.sql         <-- Database structures & default records
+│   ├── db.php                 # Relational PDO connection configuration
+│   └── school.sql             # Database schema and default user injection
 │
 ├── includes/
-│   ├── auth.php           <-- Session handlers & middleware rules
-│   ├── header.php         <-- Visual entry scripts & styles injection
-│   └── sidebar.php        <-- Consolidated absolute routing interface
+│   ├── auth.php               # Security middleware & session validation rules
+│   ├── header.php             # Unified HTML header & CSS links injection
+│   └── sidebar.php            # Consolidated global absolute routing panel
 │
 ├── modules/
 │   ├── students/
-│   │   ├── register.php   <-- Insertion interface & parsing rules
-│   │   ├── view.php       <-- SQL rows extraction layout
-│   │   └── search.php     <-- Parametrized querying processor
+│   │   ├── register.php       # Student registration interface & parsing
+│   │   ├── view.php           # Data-driven student listing with status badges
+│   │   └── search.php         # Parametrized profiling query processor
 │   └── users/
-│       ├── auth_process.php <-- Secure hash validation handler
-│       └── logout.php     <-- Active session termination script
+│       ├── auth_process.php   # Secure bcrypt password authentication processing
+│       └── logout.php         # Active user session termination script
 │
-├── index.php              <-- Core landing overview panel
-└── login.php              <-- System authentication form
-
+├── index.php                  # Application administrative overview dashboard
+└── login.php                  # Main secure authentication portal gateway
 
 ## 4. Git Commands Used
 Throughout the system development life cycle, standard Git workflow commands were strictly utilized for version control and branch architecture maintenance:
