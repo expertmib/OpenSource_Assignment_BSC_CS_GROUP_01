@@ -58,7 +58,7 @@ Follow these steps to set up and run the project locally on your machine:
 ## 3. Project Directory Structure
 Below is the clean architecture and directory tree layout of the application showing how components are modularly organized:
 
-## 3.📁 Project Directory Structure
+## 4.📁 Project Directory Structure
 Below is the clean architecture and directory tree layout of the application showing how components are modularly organized:
 
 ```text
@@ -90,7 +90,7 @@ sims-project/
 └── login.php                  # Main secure authentication portal gateway
 ```
 
-## 4. Git Commands Used
+## 5. Git Commands Used
 Throughout the system development life cycle, standard Git workflow commands were strictly utilized for version control and branch architecture maintenance:
 
 * `git init` - Initialized the local repository.
@@ -105,7 +105,7 @@ Throughout the system development life cycle, standard Git workflow commands wer
 
 ---
 
-## 5. GitHub Repository Link
+## 6. GitHub Repository Link
 The entire source code, issue resolution timeline, and detailed commit history can be physically verified on the official cloud hub repository:
 
 🔗 **GitHub Repository:** [https://github.com/expertmib/OpenSource_Assignment_BSC_CS_GROUP_01.git](https://github.com/expertmib/OpenSource_Assignment_BSC_CS_GROUP_01.git)
