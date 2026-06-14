@@ -58,7 +58,7 @@ Follow these steps to set up and run the project locally on your machine:
 ## 3. Project Directory Structure
 Below is the clean architecture and directory tree layout of the application showing how components are modularly organized:
 
-## 3. Project Directory Structure
+## 3.📁 Project Directory Structure
 Below is the clean architecture and directory tree layout of the application showing how components are modularly organized:
 
 ```text
