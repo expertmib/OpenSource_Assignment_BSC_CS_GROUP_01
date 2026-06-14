@@ -88,6 +88,7 @@ sims-project/
 │
 ├── index.php                  # Application administrative overview dashboard
 └── login.php                  # Main secure authentication portal gateway
+```
 
 ## 4. Git Commands Used
 Throughout the system development life cycle, standard Git workflow commands were strictly utilized for version control and branch architecture maintenance:
