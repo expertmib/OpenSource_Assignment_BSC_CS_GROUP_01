@@ -55,6 +55,33 @@ Follow these steps to set up and run the project locally on your machine:
 
 ---
 
+## 3. Project Directory Structure
+Below is the clean architecture and directory tree layout of the application showing how components are modularly organized:
+
+sims-project/
+│
+├── config/
+│   ├── db.php             <-- Relational PDO connection instance
+│   └── school.sql         <-- Database structures & default records
+│
+├── includes/
+│   ├── auth.php           <-- Session handlers & middleware rules
+│   ├── header.php         <-- Visual entry scripts & styles injection
+│   └── sidebar.php        <-- Consolidated absolute routing interface
+│
+├── modules/
+│   ├── students/
+│   │   ├── register.php   <-- Insertion interface & parsing rules
+│   │   ├── view.php       <-- SQL rows extraction layout
+│   │   └── search.php     <-- Parametrized querying processor
+│   └── users/
+│       ├── auth_process.php <-- Secure hash validation handler
+│       └── logout.php     <-- Active session termination script
+│
+├── index.php              <-- Core landing overview panel
+└── login.php              <-- System authentication form
+
+
 ## 4. Git Commands Used
 Throughout the system development life cycle, standard Git workflow commands were strictly utilized for version control and branch architecture maintenance:
 
